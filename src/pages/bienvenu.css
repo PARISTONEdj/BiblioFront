@@ -1,0 +1,38 @@
+.bienvenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('biblio.jpg') center/cover no-repeat; /* Assurez-vous de spécifier le chemin correct */
+
+}
+
+.b1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.desc{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.cuisine{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.bien{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 640px) {
+    .b1{
+        flex-direction: column;
+       
+    }
+ }
